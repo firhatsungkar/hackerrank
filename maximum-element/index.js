@@ -1,23 +1,22 @@
 function processData(input) {
     //Enter your code here
-    var rows = input.split('\n')
-    var stack = []
-    rows.forEach((row) =>{
-        var condition = row[0]
-        switch(parseInt(condition)){
-            case 1:
-                row = row.split('')
-                row.shift()
-                row.shift()
-                row = row.join('')
-                stack.push(row.length>0 ? parseInt(row) : 0)
-                break
-            case 2:
-                stack.pop()
-                break
-            case 3:
-                var sorted = Array.from(stack).sort((a,b) => b - a)
-                console.log(sorted[0])
+    const inputs = input.split('\n');
+    const stack = []
+    inputs.forEach((input, index) => {
+        if(index > 0) {
+            switch(parseInt(input[0])) {
+                case 1:
+                    var value = input.split(' ')
+                    stack.push(value[1])
+                    break
+                case 2:
+                    stack.pop()
+                    break
+                case 3:
+                    var sortedStack = (Array.from(stack)).sort((a,b) => b-a)
+                    console.log(sortedStack[0])
+                    break
+            }
         }
     })
 } 
@@ -32,4 +31,3 @@ process.stdin.on("data", function (input) {
 process.stdin.on("end", function () {
    processData(_input);
 });
-
