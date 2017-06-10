@@ -41,3 +41,15 @@ Using lowercase (such as “Mars Exploration” => “mars-exploration”).
 - [ ] Data Structures - Trees - Kitty’s Calcualtions on a Tree
 
 Don’t forget to create a simple README.md file to make others understand the purpose of your folders.
+
+### Hackerrank June 10, 2017
+(1) All of hackerrank results today should be pushed to your hackerrank repo (same repo with last hackerrank assignment).
+(2) Use the same naming convention as previous assignment:
+
+Using lowercase (such as "Mars Exploration" => "mars-exploration").
+
+(3) The programming problems that you need to solve are:
+- [ ] Algorithms - Search - Minimum Loss
+- [ ] Algorithms - Graph Theory - Roads and Libraries
+
+Don't forget to create a simple README.md file to make others understand the purpose of your folders.
