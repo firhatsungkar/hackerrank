@@ -49,7 +49,7 @@ Don’t forget to create a simple README.md file to make others understand the p
 Using lowercase (such as "Mars Exploration" => "mars-exploration").
 
 (3) The programming problems that you need to solve are:
-- [ ] Algorithms - Search - Minimum Loss
+- [x] Algorithms - Search - Minimum Loss
 - [ ] Algorithms - Graph Theory - Roads and Libraries
 
 Don't forget to create a simple README.md file to make others understand the purpose of your folders.
